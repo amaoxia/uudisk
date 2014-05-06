@@ -21,10 +21,6 @@
 </filter-mapping>
   
   <servlet>
-    <servlet-name>DownloadServlet</servlet-name>
-    <servlet-class>com.uudisk.servlet.DownloadServlet</servlet-class>
-  </servlet>
-  <servlet>
     <servlet-name>IterateDirServlet</servlet-name>
     <servlet-class>com.uudisk.servlet.IterateDirServlet</servlet-class>
   </servlet>
@@ -33,12 +29,6 @@
     <servlet-class>com.uudisk.servlet.IterateRootServlet</servlet-class>
   </servlet>
 
-
-
-  <servlet-mapping>
-    <servlet-name>DownloadServlet</servlet-name>
-    <url-pattern>/DownloadServlet</url-pattern>
-  </servlet-mapping>
   <servlet-mapping>
     <servlet-name>IterateDirServlet</servlet-name>
     <url-pattern>/IterateDirServlet</url-pattern>
